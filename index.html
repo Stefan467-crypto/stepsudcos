@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STEP-SUD</title>
+  <link rel="icon" href="images/img1.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/dark.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="images/step-sud-removebg-preview.png" alt="Logo">
+      </a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" id="hamburger-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </label>
+
+      <ul class="links">
+        <li><a href="#about">Despre Noi</a></li>
+        <li class="dropdown">
+          <a href="#produse">Produse
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+          </a>
+
+          <ul class="submenu">
+            <li><a href="#electrocasnice">Electrocasnice</a></li>
+            <li><a href="#igienă">Igienă</a></li>
+            <li><a href="#bucătărie">Bucătărie</a></li>
+            <li><a href="#accesorii">Accesorii</a></li>
+            <li><a href="#altele">Alte</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contacte</a></li>
+      </ul>
+
+      <div class="header-right">
+        <a href="tel:+3739812543" class="icon phone-icon" title="Sună-ne">
+          <i class="fas fa-phone"></i>
+          <span class="nrtf">+373 981 25 43</span>
+        </a>
+
+        <div class="search-box">
+          <i class='bx bx-search' id="search-icon"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search...">
+          </div>
+        </div>
+
+        <button class="toggle-theme" id="theme-toggle">🌙</button>
+
+        <div id="cart-fab" title="Vezi coșul">
+          <i class="fas fa-shopping-cart"></i>
+          <span id="cart-count">0</span>
+        </div>
+          </div>
+
+      </div>
+     
+    
+    </nav>
+
+  </header>
+
+  <section class="top-sec" id="index">
+    <div class="overlay"></div>
+    <h1 class="top-sec-title">Produse de Uz Casnic</h1>
+    <h2 class="top-sec-subtitle">Calitate și diversitate la cele mai bune prețuri</h2>
+    <div class="tel">
+      <a href="tel:+3739812543">
+        <i class="fas fa-phone"></i> +373 981 25 43
+      </a>
+    </div>
+    <div class="arrow-down">
+      <a href="#about">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+
+  </section>
+
+  <section class="despre-sec" id="about">
+    <div class="sec-content">
+      <div class="despre-img-wrapper">
+        <img src="images/img4.webp" alt="Despre Noi" class="despre-img">
+      </div>
+      <div class="despre-det">
+        <h2 id="dn" class="sec-title">Despre Noi</h2>
+        <p class="text">
+          Step-Sud, locul unde calitatea, utilitatea și accesibilitatea se întâlnesc! Suntem un butic local
+          situat în piața din inima comunității, specializat în accesorii casnice și electrocasnice care îți
+          fac viața mai ușoară și mai plăcută.
+        </p>
+        <p class="text">
+          Descoperă produse inovative și soluții practice, gândite să aducă confort în fiecare colț al casei
+          tale.
+        </p>
+        <a href="#produse" class="cta-button">Produsele</a>
+        <div class="link-list">
+          <a href="https://www.facebook.com/profile.php?id=61573582612115" class="social"><i
+              class="fab fa-facebook"></i></a>
+          <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Produse -->
+  <section class="produse" id="produse">
+    <h1 class="sectitle">Produse</h1>
+    <h2 class="menu-title" id="electrocasnice">Electronice</h2><br><br><br><br><br>
+    <!-- Produse Electronice -->
+    <ul class="mlist">
+      <li class="mitem">
+        <img src="images/img16.png" alt="Baterii GP" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Baterii GP</h3>
+          <h4>10 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+
+
+
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img17.png" alt="Baterii Duracell" class="mimg" />
+        <div class="mdet">
+            <h3 class="name">Baterii Duracell</h3>
+            <h4>20 lei/buc.</h4>
+            <div class="cart-actions">
+              <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+            </div>
+        </div>
+    </li>
+    
+
+
+      <li class="mitem">
+        <img src="images/img5.png" alt="Baterii Toshiba" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Baterii Toshiba</h3>
+          <h4>5 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img18.png" alt="Aprinzător electric" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Aprinzător electric</h3>
+          <h4>100 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img11.png" alt="Radio Kipo" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Radio Kipo</h3>
+          <h4>220 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img7.png" alt=" Aragaz de masă" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Aragaz de masă</h3>
+          <h4>200 lei/buc.</h4>
+          <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+
+
+      </li>
+
+      <li class="mitem">
+        <img src="images/img6.png" alt="Aparat de frezat" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Aparat de frezat</h3>
+          <h4>320 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+      <li class="mitem">
+        <img src="images/img9.png" alt="Brichetă Aragaz" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Brichetă Aragaz</h3>
+          <h4>20 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img10.png" alt="Radio Golon" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Radio Golon</h3>
+          <h4>200 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img11.png" alt="Radion Kipo" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Radio Kipo</h3>
+          <h4>220 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img15.png" alt="Reșou" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Reșou</h3>
+          <h4>40 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img14.png" alt="Lanternă Police" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Lanternă Police</h3>
+          <h4>120 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img13.png" alt="Lanternă Camping" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Lanternă Camping</h3>
+          <h4>250 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img12.png" alt="Lanternă Baterii" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Lanternă Baterii</h3>
+          <h4>100 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+
+    </ul><br><br><br><br><br>
+    <!-- Produse de igienă -->
+
+    <h2 class="menu-title" id="igienă">Produse de Igienă</h2><br><br><br><br><br>
+    <ul class="mlist">
+      <li class="mitem">
+        <img src="images/img24.png" alt="Gel Fairy" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Gel Fairy</h3>
+          <h4>30clei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+      <li class="mitem">
+        <img src="images/img28.png" alt="Gel Test" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Gel Test</h3>
+          <h4>20 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img29.png" alt="Aparat de ras Gillete" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Aparat de ras Gillete</h3>
+          <h4>60 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+    
+      <li class="mitem">
+        <img src="images/img31.png" alt="Hârtie Igienică" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Hârtie Igienică</h3>
+          <h4>10 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+
+
+      </li>
+
+      <li class="mitem">
+        <img src="images/img50.png" alt="Bețișoare Igienice" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Bețișoare Igienice</h3>
+          <h4>25 lei/set</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img51.png" alt="Burete" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Burete</h3>
+          <h4>25 lei/set</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img52.png" alt="Bref" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Bref</h3>
+          <h4>25 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img53.png" alt="Aparat Gillete mac 3" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Aparat Gillete mac 3</h3>
+          <h4>180 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img44.png" alt="Șervețele de Bucătărie" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Șervețele de Bucătărie</h3>
+          <h4>22 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img47.png" alt="Spongi" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Spongi</h3>
+          <h4>30 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+    </ul><br><br><br><br><br>
+    <!-- Produse de bucătărie -->
+    <h2 class="menu-title" id="bucătărie">Produse de Bucătărie</h2><br><br><br><br><br>
+    <ul class="mlist">
+      <li class="mitem">
+        <img src="images/img21.png" alt="Cuțit" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Cuțit</h3>
+          <h4>35 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img22.png" alt="Cuțit" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Cuțit</h3>
+          <h4>45 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+      <li class="mitem">
+        <img src="images/img23.png" alt="Cuțit" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Cuțit</h3>
+          <h4>50 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img32.png" alt="Mănuși de bucătărie" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Mănuși de bucătărie</h3>
+          <h4>20 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img42.png" alt="Pahare de unică folosință" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Pahare de unică folosință</h3>
+          <h4>60 lei/50buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+      <li class="mitem">
+        <img src="images/img45.png" alt="Pahar de unică folosință" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Set de cuțite</h3>
+          <h4>180 lei/set.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+
+
+      </li>
+
+      <li class="mitem">
+        <img src="images/img25.png" alt="Fund de lemn" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Fund de lemn</h3>
+          <h4>50 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+      <li class="mitem">
+        <img src="images/img26.png" alt="Fund de lemn" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Fund de lemn</h3>
+          <h4>60 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img27.png" alt="Fund de plastic" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Fund de plastic</h3>
+          <h4>40 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+    </ul><br><br><br><br><br>
+    <!-- Sacose -->
+    <h2 class="menu-title" id="accesorii">Sacoșe</h2><br><br><br><br><br>
+    <ul class="mlist">
+      <li class="mitem">
+        <img src="images/img36.png" alt="Sacoșe BMW mici" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Sacoșe BMW mici</h3>
+          <h4>3 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img35.png" alt="Sacoșe BMW mari" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Sacoșe BMW mari</h3>
+          <h4>5 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img37.png" alt="Sacoșe Calendar" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Sacoșe Calendar</h3>
+          <h4>2 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img38.png" alt="Sacoșe m100" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Sacoșe m100</h3>
+          <h4>20 lei/200buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img39.png" alt="Sacoșe de gunoi 35 litri" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Sacoșe de gunoi 35 litri</h3>
+          <h4>20 lei/set.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+      <li class="mitem">
+        <img src="images/img40.png" alt="Sacoșe de gunoi 60 litri" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Sacoșe de gunoi 60 litri</h3>
+          <h4>25 lei/set.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+
+
+      </li>
+      <li class="mitem">
+        <img src="images/img43.png" alt="Sacoșe m200" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Sacoșe m200</h3>
+          <h4>25 lei/200buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+    </ul><br><br><br><br><br>
+
+    <!-- Alte -->
+    <h2 class="menu-title" id="altele">Alte Produse</h2><br><br><br><br><br>
+    <ul class="mlist">
+      <li class="mitem">
+        <img src="images/img33.png" alt="Otravă pentru șobolani" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Otravă pentru șobolani</h3>
+          <h4>20 lei/set</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img34.png" alt="Otravă pentru șobolani" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Otravă pentru șobolani</h3>
+          <h4>70 lei/set</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img54.png" alt="Aparat contra șobolani" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Aparat contra șobolani</h3>
+          <h4>120 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+
+
+      <li class="mitem">
+        <img src="images/img48.png" alt="Lipici Super" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Lipici Super</h3>
+          <h4>10 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+      <li class="mitem">
+        <img src="images/img49.png" alt="Lipici Super" class="mimg" />
+        <div class="mdet">
+          <h3 class="name">Lipici Super Fixator</h3>
+          <h4>15 lei/buc.</h4>
+            <button class="add-to-cart"><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+
+
+<!-- Contact -->
+<section class="contact-section" id="contact">
+  <div class="contact-content">
+    <!-- Secțiunea Contactează-ne -->
+    <div class="col-50">
+      <h2 class="section-title">Contactează-ne</h2>
+      <ul class="contact-info-list">
+        <li class="adress-contacte"><i class="fas fa-map-marker-alt"></i> Piața Centrală, Cahul</li>
+        <li><i class="fas fa-envelope"></i> stepsudcompany@gmail.com</li>
+        <li class="nr-contacte"><i class="fas fa-phone"></i> +373 981 25 43</li>
+        <li><i class="fas fa-clock"></i> Marți-Duminică: 7:00 - 17:00</li>
+      </ul>
+    </div>
+    
+    <!-- Secțiunea Lasă un comentariu -->
+    <div class="col-40">
+      <h2>Lasă un comentariu</h2>
+      <form id="feedbackForm">
+        <label for="nume">Nume</label>
+        <input type="text" id="nume" placeholder="Nume..." required>
+
+        <label for="prenume">Prenume</label>
+        <input type="text" id="prenume" placeholder="Prenume..." required>
+
+        <label for="comentariu">Comentariu</label>
+        <textarea id="comentariu" placeholder="Comentariu..." rows="6" required></textarea>
+
+        <button class="trimite" type="submit">Trimite</button>
+      </form>
+      <div id="message"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Noi Suntem</h3>
+      <p>Mereu alături de voi!</p>
+    </div><br>
+  
+    
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Step-Sud. Toate drepturile rezervate.</p>
+    <p>Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizat de proiectul
+      ”Tekwill în Fiecare Școală”, ediția 2025 </p>
+  </div>
+</footer>
+  <button id="scrollToTop">↑</button>
+
+ 
+
+  <!-- Cos -->
+  <div id="cart-sidebar">
+    <button id="close-cart" title="Închide">&#10005;</button>
+    <h3>Coșul meu</h3>
+    <ul id="cart-items"></ul>
+
+    <div class="cart-footer">
+      <p>Total: <span id="cart-total">0</span> lei</p>
+      <button id="place-order">Plasează comanda</button>
+    </div>
+  </div>
+  <div id="cart-overlay"></div>
+
+
+  <div id="notification"></div>
+
+  <script src="js/script.js" defer></script>
+
+
+
+</body>
+
+</html>
