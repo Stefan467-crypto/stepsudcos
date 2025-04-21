@@ -1,0 +1,70 @@
+body.dark-mode {
+  background-color: #1E1E1E; 
+  color: #E0E0E0;
+}
+
+body.dark-mode .navbar {
+  background-color: #1E1E1E; 
+  border-bottom: 2px solid #FF9933; 
+}
+
+body.dark-mode .navbar a {
+  color: #E0E0E0; 
+}
+
+body.dark-mode .navbar a:hover {
+  color: #FF9933; 
+}
+
+body.dark-mode #hamburger-btn {
+  color: #E0E0E0; 
+}
+
+body.dark-mode .hamburger span {
+  background-color: #E0E0E0;
+}
+
+body.dark-mode .navbar .dropdown .submenu {
+  background-color: #252525; 
+  border: 1px solid #FF9933; 
+}
+
+body.dark-mode .navbar .dropdown .submenu li a {
+  color: #E0E0E0;
+}
+
+body.dark-mode .navbar .dropdown .submenu li a:hover {
+  background-color: #FF6F61; 
+  color: #000000;
+}
+
+body.dark-mode .header-right .phone-icon,
+body.dark-mode .header-right .phone-icon span, 
+body.dark-mode .header-right .search-box i, 
+body.dark-mode #hamburger-btn {
+  color: #E0E0E0;
+}
+body.dark-mode #cart-sidebar{
+  background-color: #252525;
+  color: #E0E0E0;
+  
+}
+body.dark-mode #close-cart{
+  color: #E0E0E0;
+}
+body.dark-mode .search-box .input-box::before {
+  background: #E0E0E0;
+}
+body.dark-mode #cart-fab i{
+  color: #E0E0E0;
+}
+body.dark-mode .logo img {
+  filter: invert(1);
+}
+body.dark-mode #cart-count{
+  color: white;
+}
+body.dark-mode .toggle-theme {
+  background: #FF9933;
+  border: 2px solid #FF6F61;
+}
